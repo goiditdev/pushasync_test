@@ -3,6 +3,8 @@
     <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand">
         <!-- Place new controls here -->
         <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-        <Button Text="Run Test" Clicked="Handle_RunTest"/>
+        <Button Text="Run Test for awaited PushAsync" Clicked="Handle_RunTest_AwaitedPush"/>
+        <Button Text="Run Test for unawaited PushAsync" Clicked="Handle_RunTest_UnawaitedPush"/>
+        <Button Text="Run Test for awaited AlertAsync" Clicked="Handle_RunTest_AwaitedAlert"/>
     </StackLayout>
-</ContentPage>
+</ContentPage> 
